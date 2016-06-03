@@ -1,0 +1,117 @@
+/*左右结构对称*/
+.workflow {
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.workflow .container1 {
+    border-bottom: 1px solid #d0d4d9;
+    border-top: 1px solid #d0d4d9;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.section-center .section-inner .context {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.section-center {
+    display: table;
+}
+
+.section-center .section-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.section-center .section-inner::after, .section-center .section-inner::before {
+    content: " ";
+    display: table;
+}
+.section-center .section-inner::after {
+    clear: both;
+}
+.header .section-inner {
+    position: relative;
+    z-index: 2;
+}
+
+.v-align {
+    float: none;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.icon, .v-align {
+    display: inline-block;
+    vertical-align: middle;
+}
+.text-left {
+    text-align: left;
+}
+
+.container1 {
+   margin-left: auto;
+   margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-half-icon {
+    display: inline-block;
+    height: auto;
+    max-width: 280px;
+}
+
+.section-half-icon svg {
+    height: 165px;
+    width: 280px;
+}
+.container1::after, .container1::before {
+    content: " ";
+    display: table;
+}
+.container1::after {
+    clear: both;
+}
+@media (min-width: 768px) {
+.container1 {
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+.container1 {
+    width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.container1 {
+    width: 1170px;
+}
+}
+.centered .centered-inner img {
+    max-width: 100%;
+    width: 100%;
+}
+.centered .centered-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.centered {
+    display: table;
+    width: 100%;
+}
+
+/*副标题*/
+.section-heading + .section-sub-heading {
+    color: #9ba3af;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    margin-top: -50px;
+    text-align: center;
+}
+.value .section-sub-heading {
+    color: #f5f7fa;
+}
