@@ -17,6 +17,7 @@
 
 .section-center {
     display: table;
+    width: 100%;
 }
 
 .section-center .section-inner {
@@ -46,9 +47,9 @@
     display: inline-block;
     vertical-align: middle;
 }
-.text-left {
+/*.text-left {
     text-align: left;
-}
+}*/
 
 .container1 {
    margin-left: auto;
@@ -91,7 +92,7 @@
 }
 .centered .centered-inner img {
     max-width: 100%;
-    width: 100%;
+    /*width: 100%;*/
 }
 .centered .centered-inner {
     display: table-cell;
