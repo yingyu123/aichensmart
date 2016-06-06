@@ -116,3 +116,9 @@
 .value .section-sub-heading {
     color: #f5f7fa;
 }
+/*about*/
+#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h2{
+  color: #fff;
+  font-size: 16px;
+  position: relative;;
+}
