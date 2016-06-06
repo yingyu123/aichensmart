@@ -122,3 +122,18 @@
   font-size: 16px;
   position: relative;;
 }
+/*PRODUCT产品*/
+#fh5co-feature-ying {
+    background: #f6f9fa none repeat scroll 0 0;
+    padding: 1em 0;
+}
+/*字体样式*/
+.fh5co-uppercase-heading-sm{
+  color: #1f2126;
+}
+/*大图的调整*/
+.img-responsive-ying {
+    display: block;
+    height: auto;
+    max-width: 250%;
+}
